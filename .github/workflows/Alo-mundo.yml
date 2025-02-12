@@ -11,7 +11,7 @@ jobs:
   alo:
     # Define o ambiente de execução
     runs-on: ubuntu-latest
-  # Define os passos a serem executados
+    # Define os passos a serem executados
     steps:
       - name: Ecoar Alô Mundo
       run: echo "Alô Mundo"
