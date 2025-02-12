@@ -1,4 +1,4 @@
-name: Alo Mundo
+name: Alô Mundo
 
 # Define o evento que dispara o workflow
 on:
