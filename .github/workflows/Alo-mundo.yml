@@ -9,9 +9,9 @@ on:
 jobs:
   # Define o job alo
   alo:
-  # Define o ambiente de execução
-  runs-on: ubuntu-latest
+    # Define o ambiente de execução
+    runs-on: ubuntu-latest
   # Define os passos a serem executados
-  step:
-   - name: Ecoar Alo Mundo
-  run: echo "Alô Mundo"
+    step:
+      - name: Ecoar Alô Mundo
+      run: echo "Alô Mundo"
