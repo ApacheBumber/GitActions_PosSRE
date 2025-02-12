@@ -8,7 +8,7 @@ on:
   # Define os jobs a serem executados
 jobs:
   # Define o job alo
-  alo:
+  alo mundo job exec:
     # Define o ambiente de execução
     runs-on: ubuntu-latest
     # Define os passos a serem executados
