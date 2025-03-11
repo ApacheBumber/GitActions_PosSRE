@@ -15,4 +15,8 @@ jobs:
     steps:
     - name: validar teste
       run: echo "rodando Teste automatizado"
+
+      
+    - name: certificar teste
+      run: echo "teste concluído"
       
