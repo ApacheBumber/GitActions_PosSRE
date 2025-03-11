@@ -10,10 +10,11 @@ jobs:
   # Define o job alo
   exec: 
     # Define o ambiente de execução
-    runs-on: alpine
+    runs-on: ubuntu-latest
     # Define os passos a serem executados
     steps:
-    - name: validar
-      run: Teste automatizado
-      - verify: teste ok
+    - name: validar teste
+      run: echo "rodando Teste automatizado"
+      - name: validar teste
         need: run;
+        run: echo "Teste ok"
