@@ -15,6 +15,6 @@ jobs:
     steps:
     - name: validar teste
       run: echo "rodando Teste automatizado"
-      - name: validar se teste ta ok
-        need: run;
-        run: echo "Teste ok"
+    - name: validar teste
+      need: run;
+      run: echo "Teste ok"
