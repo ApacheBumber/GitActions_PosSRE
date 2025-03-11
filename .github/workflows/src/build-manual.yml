@@ -1,0 +1,19 @@
+name: testes automatizados
+
+  # Define o evento que dispara o workflow
+on:
+  # Dispara o  workflow manualmente
+    workflow_dispatch:
+
+  # Define os jobs a serem executados
+jobs:
+  # Define o job alo
+  exec: 
+    # Define o ambiente de execução
+    runs-on: alpine
+    # Define os passos a serem executados
+    steps:
+    - name: validar
+      run: Teste automatizado
+      - verify: teste ok
+        need: run;
