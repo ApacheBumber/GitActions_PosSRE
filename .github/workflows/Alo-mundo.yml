@@ -2,6 +2,12 @@ name: Alô Mundo
 
   # Define o evento que dispara o workflow
 on:
+  push:
+  branch:
+  - main
+  - developer
+
+
   # Dispara o  workflow manualmente
     workflow_dispatch:
 
