@@ -6,9 +6,10 @@ on:
     branches:
       - main
       - developer
+
   # Dispara o  workflow manualmente
     workflow_dispatch:
-      push:
+
   # Define os jobs a serem executados
 jobs:
   # Define o job alo
@@ -19,4 +20,10 @@ jobs:
     steps:
     - name: Ecoar Alô Mundo
       run: echo "Alô Mundo"
-      
+
+    - name: Executar Testes
+      run: npm test
+
+    - name: Realizar Deploy
+      if: ${{ success() }}  # Somente executa o deploy se os testes tiverem sucesso
+      run: npm run deploy
