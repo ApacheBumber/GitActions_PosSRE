@@ -6,8 +6,6 @@ on:
   branch:
   - main
   - developer
-
-
   # Dispara o  workflow manualmente
     workflow_dispatch:
 
