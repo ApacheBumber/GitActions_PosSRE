@@ -6,7 +6,8 @@ on:
     branches:
       - main
       - developer
-
+  pull_request:
+    branches: [ "main" ]
   # Dispara o  workflow manualmente
     workflow_dispatch:
 
